@@ -3,24 +3,82 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Yellow */
+  --yellow: #ffeb55;
+  --yellow-tint-1: #fff5a3;
+  --yellow-tint-2: #fffbe0;
+
+  /* Pastel Red */
+  --pastel-red: #ff8080;
+  --pastel-red-tint-1: #ffc2c2;
+  --pastel-red-tint-2: #ffe8e8;
+
+  /* UA Red (Pantone 192C) */
+  --ua-red: #df004c;
+  --ua-red-tint-1: #f4a4b9;
+  --ua-red-tint-2: #fce0e8;
+
+  /* Silver Chalice (Pantone 42755C) */
+  --silver-chalice: #b8bbbb;
+  --silver-chalice-tint-1: #d7d9d9;
+  --silver-chalice-tint-2: #eceded;
+
+  /* Key Black */
+  --key-black: #212121;
+  --key-black-tint-1: #6b6b6b;
+  --key-black-tint-2: #d0d0d0;
 }
 
 @theme inline {
+  --color-primary-600: var(--ua-red);
+  --color-primary-400: var(--ua-red-tint-1);
+  --color-primary-200: var(--ua-red-tint-2);
+
+  /* Secondary = Pastel Red */
+  --color-secondary-600: var(--pastel-red);
+  --color-secondary-400: var(--pastel-red-tint-1);
+  --color-secondary-200: var(--pastel-red-tint-2);
+
+  /* Accent = Yellow */
+  --color-accent-600: var(--yellow);
+  --color-accent-400: var(--yellow-tint-1);
+  --color-accent-200: var(--yellow-tint-2);
+
+  /* Surface = Silver Chalice */
+  --color-surface-600: var(--silver-chalice);
+  --color-surface-400: var(--silver-chalice-tint-1);
+  --color-surface-200: var(--silver-chalice-tint-2);
+
+  /* Dark = Key Black */
+  --color-dark-600: var(--key-black);
+  --color-dark-400: var(--key-black-tint-1);
+  --color-dark-200: var(--key-black-tint-2);
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-outfit: var(--font-outFit);
+  --font-nadea: var(--font-nadea);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-outFit), var(--font-nadea), sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }

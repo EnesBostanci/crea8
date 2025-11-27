@@ -1,11 +1,12 @@
 import { Sekleton } from "@/components/Layout/Sekleton";
-import Hero from "@/components/Pages/HomePage/Hero";
+import Contact from "@/components/Pages/Contact/Contact";
 import Cta from "@/components/Shared/Cta";
 import Group from "@/components/Shared/Group";
-export default function Home() {
+
+export default function Page() {
   return (
     <Sekleton>
-      <Hero />
+      <Contact />
       <Cta />
       <Group />
     </Sekleton>
