@@ -40,7 +40,7 @@ const items = [
 
 export default function Gallery() {
   return (
-    <section aria-labelledby="category-heading" className="bg-gray-50">
+    <section aria-labelledby="category-heading" className="">
       <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="sm:flex sm:items-baseline sm:justify-between">
           <h2
@@ -71,7 +71,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
                     New Arrivals
@@ -95,7 +95,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Accessories
@@ -119,7 +119,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Workspace
@@ -144,7 +144,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
                     New Arrivals
@@ -168,7 +168,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Accessories
@@ -192,7 +192,7 @@ export default function Gallery() {
             />
             <div className="absolute inset-0 flex items-end p-6">
               <div>
-                <h3 className="font-semibold text-white">
+                <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
                     Workspace
