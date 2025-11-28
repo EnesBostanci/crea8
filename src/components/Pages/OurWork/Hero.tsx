@@ -15,7 +15,7 @@ export default function Hero({
         </h1>
         <span
           className={clsx(
-            "mt-6 block max-w-5xl font-display text-5xl font-bold tracking-tight text-balance text-primary-800 sm:text-6xl"
+            "mt-6 block max-w-5xl  text-3xl font-bold tracking-tight text-balance text-primary-800 sm:text-4xl"
           )}
         >
           {data.header}

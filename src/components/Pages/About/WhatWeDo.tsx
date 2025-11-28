@@ -1,6 +1,8 @@
 const services = [
   {
     title: "Original IPs & Content Development",
+    description:
+      "We develop original scripted and factual formats tailored for broadcasters, OTT platforms, and co-production partners.",
     items: [
       "Scripted & factual format development",
       "Series & show concepts",
@@ -11,6 +13,7 @@ const services = [
   },
   {
     title: "Film, Series & Branded Content",
+    description: "We bring stories to life across screens and formats.",
     items: [
       "Film & TV production",
       "Episodic and digital series",
@@ -21,6 +24,8 @@ const services = [
   },
   {
     title: "Production Services (End-to-End)",
+    description:
+      "From the first idea to the final master, we manage the full production pipeline.",
     items: [
       "Creative development & scriptwriting",
       "Storyboarding & visual planning",
@@ -34,6 +39,8 @@ const services = [
   },
   {
     title: "Post-Production & Finishing",
+    description:
+      "We polish every frame to ensure your story lands with impact.",
     items: [
       "Offline & online editing",
       "Color correction & grading",
@@ -45,29 +52,32 @@ const services = [
     ],
   },
 ];
-
 export default function WhatWeDo() {
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <div className="max-w-4xl">
-          <p className="text-base/7 font-semibold text-indigo-600">
+          <h1 className=" block max-w-5xl mt-2 max-w-5xl text-5xl font-bold tracking-tight text-pretty   sm:text-7xl">
             What we do
-          </p>
-          <h1 className="mt-2 text-4xl font-bold tracking-tight text-pretty  sm:text-5xl">
+          </h1>
+          <p className="mt-6 block max-w-5xl  text-3xl  tracking-tight text-balance text-primary-800 sm:text-4xl  font-semibold  ">
+            {" "}
             We specialise in original IPs, film and series, and full production
             services, covering every step of the journey:
-          </h1>
+          </p>
         </div>
-        <section className="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
+        <section className="mt-10 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
           <div className="lg:pr-8 space-y-12">
             {services.map((service) => (
               <div key={service.title}>
-                <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
+                <h2 className="text-3xl font-semibold tracking-tight text-gray-900">
                   {service.title}
                 </h2>
+                <p className="font-medium text-2xl tracking-tight text-gray-600 mt-2 italic">
+                  {service.description}
+                </p>
 
-                <ul className="mt-4 space-y-2 text-base/7 text-gray-600 list-disc pl-5">
+                <ul className="mt-4 space-y-2 text-base text-gray-600 list-disc pl-5">
                   {service.items.map((item) => (
                     <li key={item}>{item}</li>
                   ))}

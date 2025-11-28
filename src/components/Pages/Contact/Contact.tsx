@@ -51,16 +51,28 @@ export default function Contact() {
                 Locations
               </h2>
             </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
+            <div className="flex flex-col gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
               <div className="rounded-2xl bg-gray-50 p-10">
-                <h3 className="text-base/7 font-semibold text-gray-900">
+                <h3 className="text-base/7 font-semibold text-gray-900 mb-2">
                   Istanbul, Türkiye
                 </h3>
+                <iframe
+                  width="100%"
+                  height="300"
+                  loading="lazy"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3152.0!2d28.982212!3d41.102726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2str!4v1700000000000"
+                ></iframe>
               </div>
               <div className="rounded-2xl bg-gray-50 p-10">
-                <h3 className="text-base/7 font-semibold text-gray-900">
+                <h3 className="text-base/7 font-semibold text-gray-900 mb-2">
                   Lusail, Qatar
                 </h3>
+                <iframe
+                  width="100%"
+                  height="300"
+                  loading="lazy"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.0000000000000!2d51.521623!3d25.387427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c3b7fc90e879%3A0xa51e806d1b7c1423!2sID8+Media!5e0!3m2!1sen!2s!4v1"
+                ></iframe>
               </div>
             </div>
           </div>

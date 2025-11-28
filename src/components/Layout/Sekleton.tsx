@@ -138,7 +138,7 @@ function NavigationItem({
 
 function Navigation() {
   return (
-    <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
+    <nav className="mt-px  text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
         <NavigationItem href="/">Home</NavigationItem>
         <NavigationItem href="/ourwork">Our Work</NavigationItem>
@@ -243,7 +243,7 @@ function RootLayoutInner({
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pt-10 pb-16 sm:grid-cols-2 sm:pt-16">
                   <div className="flex items-center">
-                    <h2 className="font-display text-base font-semibold text-white">
+                    <h2 className=" text-base font-semibold text-white">
                       Info@cre8studios.com
                     </h2>
                     {/* <Offices
@@ -252,7 +252,7 @@ function RootLayoutInner({
                     /> */}
                   </div>
                   <div className="sm:border-l sm:border-transparent sm:pl-16">
-                    <h2 className="font-display text-base font-semibold text-white">
+                    <h2 className=" text-base font-semibold text-white">
                       Follow us
                     </h2>
                     <SocialMedia className="mt-6" invert />

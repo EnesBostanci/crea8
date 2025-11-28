@@ -3,7 +3,7 @@ import { Button } from "@/components/Shared/Button";
 
 export default function Hero() {
   return (
-    <div className="relative isolate overflow-hidden pt-14 ">
+    <div className="relative isolate overflow-hidden pt-14 min-h-[calc(100vh-145.42px)] ">
       <video
         muted
         autoPlay
@@ -24,17 +24,18 @@ export default function Hero() {
             className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-288.75"
           />
         </div> */}
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="text-center">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 absolute left-0 top-7/12">
+        {/* py-32 sm:py-48 lg:py-56 */}
+        <div className="mx-auto max-w-2xl ">
+          <div className="text-left">
             <h1 className="text-5xl font-bold tracking-tight text-balance  sm:text-7xl whitespace-nowrap">
               Create. Capture. Elevate.{" "}
             </h1>
-            <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
+            <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8">
               “We create original content that inspires, entertains, and
               elevates stories across the region.”
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex items-center justify-start gap-x-6">
               <Button
                 href="/ourwork"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

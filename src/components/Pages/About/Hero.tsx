@@ -19,18 +19,24 @@ function PageIntro({
       className={clsx("mt-24 sm:mt-32 lg:mt-40", centered && "text-center")}
     >
       <FadeIn>
-        <span className="block font-display text-base font-semibold ">
-          {eyebrow}
-        </span>
         <h1
           className={clsx(
-            "mt-6 block max-w-5xl text-5xl font-bold tracking-tight text-balance sm:text-7xl",
+            "text-5xl font-bold tracking-tight text-balance sm:text-7xl mt-6 block max-w-5xl",
             centered && "mx-auto"
           )}
         >
           {title}
         </h1>
-        <div className={clsx("mt-6 max-w-3xl text-xl ", centered && "mx-auto")}>
+        <span className="mt-6 block max-w-5xl  text-3xl  tracking-tight text-balance text-primary-800 sm:text-4xl  font-semibold ">
+          {eyebrow}
+        </span>
+
+        <div
+          className={clsx(
+            " mt-6 max-w-3xl text-xl text-neutral-600 ",
+            centered && "mx-auto"
+          )}
+        >
           {children}
         </div>
       </FadeIn>
@@ -63,7 +69,7 @@ export function StatListItem({
   return (
     <Border as={FadeIn} position="left" className="flex flex-col-reverse pl-8">
       <dt className="mt-2 text-base text-neutral-600">{label}</dt>
-      <dd className="font-display text-3xl font-semibold text-neutral-950 sm:text-4xl">
+      <dd className=" text-3xl font-semibold text-neutral-950 sm:text-4xl">
         {value}
       </dd>
     </Border>
@@ -73,7 +79,7 @@ export function StatListItem({
 export default function Hero() {
   return (
     <section>
-      <PageIntro eyebrow="About us" title="Our Story">
+      <PageIntro eyebrow="Our Story" title="About us">
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
             Cre8 Studios is a full-service media production house dedicated to
