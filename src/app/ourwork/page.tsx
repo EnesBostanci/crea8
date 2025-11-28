@@ -2,7 +2,6 @@ import { Sekleton } from "@/components/Layout/Sekleton";
 import Gallery from "@/components/Pages/OurWork/Gallery";
 import Hero from "@/components/Pages/OurWork/Hero";
 import Cta from "@/components/Shared/Cta";
-import Group from "@/components/Shared/Group";
 const heroTitle = {
   title: "Our Work",
   header: "Signature projects. Real results.",
@@ -15,7 +14,6 @@ export default function Page() {
       <Hero data={heroTitle} />
       <Gallery />
       <Cta />
-      <Group />
     </Sekleton>
   );
 }

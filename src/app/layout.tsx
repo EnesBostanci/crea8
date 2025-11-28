@@ -21,9 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     // h-full
-    <html lang="en">
+    <html lang="en" className="h-full">
       {/* h-full */}
-      <body className={`${outFit.variable} ${nadea.variable}   antialiased`}>
+      <body
+        className={`${outFit.variable} ${nadea.variable}   antialiased h-full`}
+      >
         {children}
       </body>
     </html>

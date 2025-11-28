@@ -74,7 +74,7 @@ export default function Gallery() {
                 <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    New Arrivals
+                    Carole Samaha{" "}
                   </a>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -98,7 +98,7 @@ export default function Gallery() {
                 <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    Accessories
+                    Hamoud El Khodr{" "}
                   </a>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -122,7 +122,7 @@ export default function Gallery() {
                 <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    Workspace
+                    Sitcom Al Mahatta{" "}
                   </a>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -147,7 +147,7 @@ export default function Gallery() {
                 <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    New Arrivals
+                    Gulf Bank{" "}
                   </a>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -171,7 +171,7 @@ export default function Gallery() {
                 <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    Accessories
+                    Talabat{" "}
                   </a>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -195,7 +195,7 @@ export default function Gallery() {
                 <h3 className="font-semibold ">
                   <a href="#">
                     <span className="absolute inset-0" />
-                    Workspace
+                    IraqGT{" "}
                   </a>
                 </h3>
                 <p aria-hidden="true" className="mt-1 text-sm text-white">

@@ -1,5 +1,5 @@
-import { Container } from "@/components/UI/SekletonCom/Container";
-import { FadeIn, FadeInStagger } from "@/components/Layout/FadeIn";
+import { Container } from "@/components/Template/Container";
+import { FadeIn, FadeInStagger } from "@/components/Template/FadeIn";
 import Image from "next/image";
 
 import logoAbuDhabi from "@/../public/Clients/abuDhabi.png";

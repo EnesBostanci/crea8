@@ -54,7 +54,7 @@ export default function WhatWeDo() {
           <p className="text-base/7 font-semibold text-indigo-600">
             What we do
           </p>
-          <h1 className="mt-2 text-5xl font-bold tracking-tight text-balance sm:text-7xl text-gray-900">
+          <h1 className="mt-2 text-4xl font-bold tracking-tight text-pretty  sm:text-5xl">
             We specialise in original IPs, film and series, and full production
             services, covering every step of the journey:
           </h1>

@@ -1,15 +1,18 @@
 "use client";
+import { Button } from "@/components/Shared/Button";
 
 export default function Hero() {
   return (
-    <div className="bg-white">
-      <div className="relative isolate overflow-hidden pt-14">
-        <img
-          alt=""
-          src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=fff&sat=-100&exp=15&blend-mode=overlay"
-          className="absolute inset-0 -z-10 size-full object-cover opacity-10"
-        />
-        <div
+    <div className="relative isolate overflow-hidden pt-14 ">
+      <video
+        muted
+        autoPlay
+        loop
+        playsInline
+        src="output.mp4"
+        className="absolute inset-0 -z-10 w-full h-full object-cover opacity-90 "
+      />
+      {/* <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         >
@@ -20,29 +23,35 @@ export default function Hero() {
             }}
             className="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-30rem)] sm:w-288.75"
           />
-        </div>
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-            <div className="text-center">
-              <h1 className="text-5xl font-bold tracking-tight text-balance  sm:text-7xl">
-                Create. Capture. Elevate.{" "}
-              </h1>
-              <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-                “We create original content that inspires, entertains, and
-                elevates stories across the region.”
-              </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Get started
-                </a>
-              </div>
+        </div> */}
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="text-center">
+            <h1 className="text-5xl font-bold tracking-tight text-balance  sm:text-7xl whitespace-nowrap">
+              Create. Capture. Elevate.{" "}
+            </h1>
+            <p className="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
+              “We create original content that inspires, entertains, and
+              elevates stories across the region.”
+            </p>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <Button
+                href="/ourwork"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Our Work{" "}
+              </Button>
+              <Button
+                href="/contact"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Contact us{" "}
+              </Button>
             </div>
           </div>
         </div>
-        <div
+      </div>
+      {/* <div
           aria-hidden="true"
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         >
@@ -53,8 +62,7 @@ export default function Hero() {
             }}
             className="relative left-[calc(50%+3rem)] aspect-1155/678 w-144.5 -translate-x-1/2 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%+36rem)] sm:w-288.75"
           />
-        </div>
-      </div>
+        </div> */}
     </div>
   );
 }

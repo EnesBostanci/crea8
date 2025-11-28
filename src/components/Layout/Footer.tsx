@@ -10,23 +10,23 @@ const navigation = [
     title: "Our Work",
     links: [
       { title: "X", href: "/X" },
-      {
-        title: (
-          <>
-            See all <span aria-hidden="true">&rarr;</span>
-          </>
-        ),
-        href: "/portfolio",
-      },
+      // {
+      //   title: (
+      //     <>
+      //       See all <span aria-hidden="true">&rarr;</span>
+      //     </>
+      //   ),
+      //   href: "/portfolio",
+      // },
     ],
   },
 
   {
     title: "About Us",
     links: [
-      { title: "Home", href: "/" },
-      { title: "Our Work", href: "/ourwork" },
-      { title: "About Us", href: "/about" },
+      // { title: "Home", href: "/" },
+      { title: "What We Do", href: "/ourwork" },
+      { title: "Our Story", href: "/about" },
       { title: "Contact Us", href: "/contact" },
     ],
   },

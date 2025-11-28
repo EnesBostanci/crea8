@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <Sekleton>
       <Hero />
-      <Cta />
       <Group />
+      <Cta />
     </Sekleton>
   );
 }
