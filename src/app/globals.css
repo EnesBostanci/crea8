@@ -70,12 +70,17 @@
 
 @layer base {
   body {
-    background: var(--background);
+    background: var(--ua-red);
     color: var(--foreground);
     font-family: var(--font-outFit), var(--font-nadea), sans-serif;
   }
   * {
     box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3 {
+    color: var(--ua-red);
   }
 
   html {

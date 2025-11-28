@@ -1,4 +1,3 @@
-import { Limelight } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 const socialMediaIcons = [
@@ -42,7 +41,7 @@ export default function NotFound() {
         <main className="mx-auto w-full max-w-7xl px-6 py-24 sm:py-32 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:px-8">
           <div className="max-w-lg">
             <p className="text-base/8 font-semibold text-primary-600 ">404</p>
-            <h1 className="mt-4 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-6xl dark:text-white">
+            <h1 className="mt-4 text-5xl font-bold tracking-tight  sm:text-7xl text-pretty text-gray-900 dark:text-white">
               Page not found
             </h1>
             <p className="mt-6 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 dark:text-gray-400">

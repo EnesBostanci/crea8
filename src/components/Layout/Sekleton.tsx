@@ -221,8 +221,8 @@ function RootLayoutInner({
           aria-hidden={expanded ? undefined : "true"}
           inert={expanded ? undefined : true}
         >
-          <motion.div layout className="bg-neutral-800">
-            <div ref={navRef} className="bg-primary-800 pt-14 pb-16">
+          <motion.div layout className="bg-primary-600">
+            <div ref={navRef} className="bg-primary-600  pt-14 pb-16">
               <Header
                 invert
                 panelId={panelId}
@@ -239,7 +239,7 @@ function RootLayoutInner({
               />
             </div>
             <Navigation />
-            <div className="relative bg-primary-800 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-800">
+            <div className="relative bg-primary-600 before:absolute before:inset-x-0 before:top-0 before:h-px before:bg-neutral-600">
               <Container>
                 <div className="grid grid-cols-1 gap-y-10 pt-10 pb-16 sm:grid-cols-2 sm:pt-16">
                   <div className="flex items-center">
@@ -292,7 +292,7 @@ function RootLayoutInner({
 export function Sekleton({
   children,
   bg = "bg-white",
-  grid = true,
+  grid = false,
 }: {
   children: React.ReactNode;
   bg?: string;
